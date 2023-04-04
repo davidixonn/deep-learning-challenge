@@ -45,5 +45,5 @@ The purpose of the analysis is to predict which applicants will be successful wi
 ### Summary
 Through the process of optimization, we were able to increase the accuracy. The optimized accuracy returned at approximately 78%. Steps taken to increase to this level was through having the name occur more than 5 times, application having either T3, T4, T5, T6, T7, T8, T10 and T19 and classification as C1000, C2000, C3000, C1200 and C2100.
 
-Recommendation: Random Forest Model
-Random forest can be used on both regression tasks (predict continuous outputs, such as price) or classification tasks (predict categorical or discrete outputs) which would be applicable in this instance.
+Recommendation: Random Forest Model.
+- Random forest can be used on both regression tasks (predict continuous outputs, such as price) or classification tasks (predict categorical or discrete outputs) which would be applicable in this instance.
