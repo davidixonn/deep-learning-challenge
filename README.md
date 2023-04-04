@@ -28,18 +28,22 @@ The purpose of the analysis is to predict which applicants will be successful wi
 ### Results
 #### Data Preprocessing
 - What variable(s) are the target(s) for your model?
-- 
+- "IS_SUCCESSFUL"
 - What variable(s) are the features for your model?
--
+- "NAME", "APPLICATION", "TYPE", "AFFILIATION", "CLASSIFICATION", "USE_CASE", "ORGANIZATION", "INCOME_AMT","SPECIAL_CONSIDERATIONS", "STATUS", "ASK_AMT"
 - What variable(s) should be removed from the input data because they are neither targets nor features?
-- 
+- "EIN"
 #### Compiling, Training, and Evaluating the Model
 - How many neurons, layers, and activation functions did you select for your neural network model, and why?
--
+- The accuracy increased with three layers with many neurons and with the 2nd and 3rd activation (sigmoid). 
+- 1st activation: relu, 2nd and 3rd activation: sigmoid
 - Were you able to achieve the target model performance?
--
+- We were able to achive target model performance.
 - What steps did you take in your attempts to increase model performance?
+- A 3rd layer, changing NAME to data points and going with the sigmoid activation function.
 
 ### Summary
+Through the process of optimization, we were able to increase the accuracy. The optimized accuracy returned at approximately 78%. Steps taken to increase to this level was through having the name occur more than 5 times, application having either T3, T4, T5, T6, T7, T8, T10 and T19 and classification as C1000, C2000, C3000, C1200 and C2100.
 
-
+Recommendation: Random Forest Model
+Random forest can be used on both regression tasks (predict continuous outputs, such as price) or classification tasks (predict categorical or discrete outputs) which would be applicable in this instance.
