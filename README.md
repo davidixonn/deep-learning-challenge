@@ -21,3 +21,25 @@ From Alphabet Soup’s business team, you have received a CSV containing more th
 3. Optimize the model
 
 ## Report on Neural Network Model
+
+### Overview
+The purpose of the analysis is to predict which applicants will be successful with funding from the nonprofit foundation Alphabet Soup. A dataset is utilized to make a binary classifier along with machine learning and neural network.
+
+### Results
+- Data Preprocessing
+-- What variable(s) are the target(s) for your model?
+-- 
+-- What variable(s) are the features for your model?
+--
+-- What variable(s) should be removed from the input data because they are neither targets nor features?
+-- 
+- Compiling, Training, and Evaluating the Model
+-- How many neurons, layers, and activation functions did you select for your neural network model, and why?
+--
+-- Were you able to achieve the target model performance?
+--
+-- What steps did you take in your attempts to increase model performance?
+
+### Summary
+
+
